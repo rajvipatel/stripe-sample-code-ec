@@ -25,7 +25,7 @@ export default function App() {
         // This is a placeholder - it should be replaced with your publishable API key.
         // Sign in to see your own test API key embedded in code samples.
         // Don’t submit any personally identifiable information in requests made with this key.
-        publishableKey: "pk_INSERT_YOUR_PUBLISHABLE_KEY",
+        publishableKey: "pk_test_51JdH8WKFPdZAIqHpqRNr9L8CIcaan1B8YHue6xZK7wlK9z8rDN5R8a6iX68kbbScDg6UdCG0SfdmleeWgV7LhX8x00J9edMxFl",
         fetchClientSecret: fetchClientSecret,
         appearance: {
           overlays: 'dialog',
