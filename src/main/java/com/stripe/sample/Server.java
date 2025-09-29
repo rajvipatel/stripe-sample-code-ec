@@ -39,7 +39,7 @@ public class Server {
     // This is a placeholder - it should be replaced with your secret API key.
     // Sign in to see your own test API key embedded in code samples.
     // Don’t submit any personally identifiable information in requests made with this key.
-    Stripe.apiKey = "sk_INSERT_YOUR_SECRET_KEY";
+    Stripe.apiKey = "sk_test_51JdH8WKFPdZAIqHp41EB96QmXPYrywPLMuu0uBZPX9Iy6331II71qHl8GzNIGZ2qkss4xC73A1ViwMg6z6FOTieW00cdOd1DUX";
 
     post("/account_session", (request, response) -> {
       response.type("application/json");
@@ -47,7 +47,7 @@ public class Server {
       try {
         
         Map<String, Object> params = new HashMap<>();
-        params.put("account", "{{CONNECTED_ACCOUNT_ID}}");
+        params.put("account", "acct_1JdH8WKFPdZAIqHp");
         Map<String, Object> payments = new HashMap<>();
         payments.put("enabled", true);
 
