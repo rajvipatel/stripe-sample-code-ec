@@ -45,6 +45,7 @@ public class Server {
       response.type("application/json");
 
       try {
+        
         Map<String, Object> params = new HashMap<>();
         params.put("account", "{{CONNECTED_ACCOUNT_ID}}");
         Map<String, Object> payments = new HashMap<>();
